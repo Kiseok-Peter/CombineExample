@@ -18,6 +18,7 @@ class ViewController: UIViewController {
 //        Just().test()
 //        From().test()
 //        Deferred().test()
-        NeverTest().test()
+//        NeverTest().test()
+        ErrorTest().test()
     }
 }
