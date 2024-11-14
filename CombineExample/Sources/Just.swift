@@ -8,12 +8,11 @@
 import RxSwift
 import Combine
 
-final class JustTest {
-    let disposeBag = DisposeBag()
+final class Just: TestProtocol {
     var cancellables: [AnyCancellable] = []
     
     func test() {
-        // Rx Just
+        // Rx just
         Observable.just(1)
             .subscribe(onNext: {
                 debugPrint("RxSwift")
@@ -21,8 +20,8 @@ final class JustTest {
             })
             .disposed(by: disposeBag)
         
-        // Combine Just
-        Just(1)
+        // Combine just
+        Combine.Just(1)
             .sink {
                 debugPrint("Combine")
                 debugPrint($0)
