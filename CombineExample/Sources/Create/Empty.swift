@@ -1,5 +1,5 @@
 //
-//  Empty.swift
+//  EmptyTest.swift
 //  CombineExample
 //
 //  Created by 박기석 on 11/15/24.
@@ -8,7 +8,7 @@
 import RxSwift
 import Combine
 
-final class Empty: TestProtocol {
+final class EmptyTest: TestProtocol {
     var cancellables: [AnyCancellable] = []
     
     func test() {
