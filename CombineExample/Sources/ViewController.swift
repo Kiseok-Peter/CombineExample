@@ -15,6 +15,6 @@ class ViewController: UIViewController {
         view.backgroundColor = .red
         
         Just().test()
+        From().test()
     }
 }
-
