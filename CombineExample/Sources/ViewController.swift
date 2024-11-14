@@ -8,13 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    let test = Deferred()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
         
-        Just().test()
-        From().test()
+//        Just().test()
+//        From().test()
+        Deferred().test()
     }
 }
