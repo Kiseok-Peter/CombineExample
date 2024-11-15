@@ -15,11 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
         
+        // Create
 //        Just().test()
 //        From().test()
 //        Deferred().test()
 //        NeverTest().test()
 //        ErrorTest().test()
-        Map().test()
+        
+        // Transform
+//        Map().test()
+        FlatMap().test()
     }
 }
