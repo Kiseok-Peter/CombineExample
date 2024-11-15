@@ -8,8 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let test = Deferred()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -32,6 +30,7 @@ class ViewController: UIViewController {
         
         // Filter
 //        Filter().test()
-        Distinct().test()
+//        Distinct().test()
+        Skip().test()
     }
 }
