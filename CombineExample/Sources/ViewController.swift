@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         
         // Transform Combine
 //        MapError().test()
-        ReplaceNil().test()
+//        ReplaceNil().test()
+        
+        // Filter
+        Filter().test()
     }
 }
