@@ -31,6 +31,7 @@ class ViewController: UIViewController {
 //        ReplaceNil().test()
         
         // Filter
-        Filter().test()
+//        Filter().test()
+        Distinct().test()
     }
 }
