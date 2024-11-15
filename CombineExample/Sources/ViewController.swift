@@ -27,6 +27,7 @@ class ViewController: UIViewController {
 //        FlatMap().test()
         
         // Transform Combine
-        MapError().test()
+//        MapError().test()
+        ReplaceNil().test()
     }
 }
