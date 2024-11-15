@@ -31,6 +31,9 @@ class ViewController: UIViewController {
         // Filter
 //        Filter().test()
 //        Distinct().test()
-        Take().test()
+//        Take().test()
+        
+        // Combining
+        CombineLatest().test()
     }
 }
