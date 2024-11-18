@@ -41,6 +41,9 @@ class ViewController: UIViewController {
         // Error Handling
 //        Catch().test()
 //        CatchAndReturn().test()
-        Retry().test()
+//        Retry().test()
+        
+        // Scheduler
+        ObserveOn().test()
     }
 }
