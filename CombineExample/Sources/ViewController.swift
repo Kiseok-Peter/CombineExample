@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         
         // Combining
 //        CombineLatest().test()
-        Merge().test()
+//        Merge().test()
+        Zip().test()
     }
 }
