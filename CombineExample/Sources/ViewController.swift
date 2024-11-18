@@ -36,6 +36,9 @@ class ViewController: UIViewController {
         // Combining
 //        CombineLatest().test()
 //        Merge().test()
-        Zip().test()
+//        Zip().test()
+        
+        // Error Handling
+        Catch().test()
     }
 }
