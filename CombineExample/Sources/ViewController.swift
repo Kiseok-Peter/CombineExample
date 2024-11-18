@@ -39,6 +39,7 @@ class ViewController: UIViewController {
 //        Zip().test()
         
         // Error Handling
-        Catch().test()
+//        Catch().test()
+        CatchAndReturn().test()
     }
 }
